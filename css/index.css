@@ -23,10 +23,12 @@
 .alignItems3 {
   align-items:flex-end;
   justify-content: center;
+  text-align: start;
 }
 .alignItems4 {
   align-items: center;
-  justify-content: space-evenly
+  justify-content: space-evenly;
+  text-align: end;
 }
 .perfectlyCentered {
 align-items: center;
