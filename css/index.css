@@ -1,0 +1,35 @@
+.flexContainer {
+  display: flex;
+  height: 400px;
+  background-color: lightblue;
+  margin: 10px;
+  padding: 10px;
+}
+.flexItem {
+  background-color: lightyellow;
+  margin: 10px;
+  padding: 10px;
+  width: 250px;
+  height: 250px;
+}
+.alignItems1 {
+  align-items:flex-start;
+  justify-content:end;
+}
+.alignItems2 {
+  align-items: center;
+  justify-content: start;
+}
+.alignItems3 {
+  align-items:flex-end;
+  justify-content: center;
+}
+.alignItems4 {
+  align-items: center;
+  justify-content: space-evenly
+}
+.perfectlyCentered {
+align-items: center;
+justify-content: center;
+text-align: center;
+}
